@@ -20,6 +20,7 @@ export function ProductModal({visible, onClose, product, onAddToCart}: ProductMo
   }
 
   function handleAddToCart() {
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     onAddToCart(product!);
     onClose();
   }
