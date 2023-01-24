@@ -26,7 +26,9 @@ export const ModalBody = styled.View`
   padding: 32px 24px 0;
 
 `;
-export const Header = styled.View``;
+export const Header = styled.View`
+  
+`;
 
 
 export const IngredientContainer = styled.View`

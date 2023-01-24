@@ -11,6 +11,8 @@ export const ProductContainer = styled.View`
 `;
 export const Actions = styled.View`
   flex-direction: row;
+
+
 `;
 
 export const Image = styled.Image`
@@ -28,6 +30,7 @@ export const QuantityContainer = styled.View`
 
 
 export const ProductDetails = styled.View`
+  max-width: 218px;
 
 `;
 export const Summary = styled.View`
@@ -38,4 +41,5 @@ export const Summary = styled.View`
 export const TotalContainer = styled.View`
   margin-right: 32px;
   flex: 1;
+
 `;
